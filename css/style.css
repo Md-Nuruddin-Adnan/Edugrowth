@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300;400;500;700&display=swap');
+@font-face{
+  font-family: 'BebasNeue-Regular';
+  src: url(../fonts/BebasNeue-Regular.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+ 
+::after, ::before {
+  box-sizing: border-box;
+}
+ 
+h1, h2, h3, h4, h5, h6, ol, ul, p, address, strong, i {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+   
+ul, li {
+  list-style: none;
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+
+body {
+  background: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+/* basic css end */
+
+/* common css start */
+h1 {
+  font-size: 45px;
+  color: #fff;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.section-heading {
+  /* font-family: 'Bebas Neue', cursive; */
+  font-family: 'BebasNeue-Regular';
+  font-size: 60px;
+  /* font-weight: bold; */
+  color: #066f81;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+  letter-spacing: 1px;
+}
+
+p {
+  font-size: 18px;
+}
+
+.my-btn {
+  font-family: 'BebasNeue-Regular';
+  font-size: 20px;
+  font-weight: 600;
+  background: #2390a2;
+  text-align: center;
+  margin-top: 20px;
+  border-radius: 0;
+  letter-spacing: 1px;
+}
+.my-btn:hover{
+  color: #fff;
+}
+/*// end of common css */
+
+/* main css start */
+
+/* === header section start === */
+.navbar-light .navbar-nav .nav-link {
+  font-size: 18px;
+  transition: all 0.2s linear;
+  /* color: #000; */
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.navbar .whatsapp-number a {
+  color: inherit;
+}
+/* ===//end of header section === */
+
+/* === banner section start === */
+.banner{
+  background: url(../images/banner.png) no-repeat center center/cover;
+  padding: 80px 0;
+}
+.banner .form-control{
+  background-color: rgba(255, 255, 255, .75);
+  border-color: rgba(255, 255, 255, .75);
+  border-radius: 0;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.75);
+  border: 0;
+}
+.banner .form-control::placeholder{
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.75);
+}
+/* ===//end of banner section === */
+
+/* === who-we section start === */
+.who-we{
+  padding: 60px 0 80px 0;
+}
+/* ===//end of who-we section === */
+
+/* === looking-for section start === */
+.looking-for{
+  padding: 80px 0;
+  background: url(../images/banner2.png) no-repeat center center/cover;
+}
+/* ===//end of looking-for section === */
+
+/* === benefits section start === */
+.benefits{
+  padding: 80px 0;
+}
+.benefits ul li {
+  font-size: 20px;
+  font-weight: 500;
+  color: #353535;
+  padding: 5px;
+  display: flex;
+}
+.benefits ul li span{
+  padding-right: 10px;
+  display: block;
+}
+/* ===//end of benefits section === */
+
+/* === ? section start === */
+/* ===//end of ? section === */
+
+/* === footer section start === */
+.footer .footer-top {
+  padding: 80px 0 100px 0;
+  background: url(../images/footer_bg.png) no-repeat center center/cover;
+}
+.footer .footer-email-link,
+.footer .footer-top a {
+  color: #fff;
+  transition: all 0.2s linear;
+  display: flex;
+  align-items: center;
+}
+.footer .footer-top a:hover {
+  opacity: 0.8;
+}
+.footer .footer-top img {
+  width: 65px;
+  padding-right: 15px;
+}
+/* ===//end of footer section === */
